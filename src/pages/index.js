@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import Link from 'next/link'
+import Tags from '@/components/Tags'
 
 const Home = () => {  
 
@@ -15,6 +16,7 @@ const Home = () => {
       <p className='text-lg font-mono'>👋 HelloFaizan Blog <Link href={"https://github.com/hellofaizan/blog"} target="_blank"><span className='hover:text-blue-500 text-gray-400'>- github</span></Link></p>
       <p className='ml-2 text-gray-400 font-mono'>Everything that comes into my mind will be written here.</p>
     </motion.div>
+    <Tags/>
     </div>
     </>
   )

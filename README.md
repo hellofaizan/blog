@@ -1,3 +1,6 @@
+[![Discord](https://img.shields.io/discord/988670044152168518.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/vUHMxPvege)
+<a href="https://www.youtube.com/c/hellofaizan"><img src="https://img.shields.io/youtube/channel/subscribers/UCjG4tRRoqiRjaDy20pgwjuA?style=social" alt="Youtube" /></a>
+
 # NextJs Template
 
 ### This template is made for NextJs with TailwindCSS and JavaScript (ES6) support. Also container Axios for API calls
