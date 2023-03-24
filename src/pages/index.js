@@ -5,7 +5,7 @@ import Tags from '@/components/tags'
 import { postFileName } from '@/utils/mdxUtils'
 import fs from 'fs'
 import matter from 'gray-matter'
-import BlogList from '@/components/blogs/blogList'
+import BlogList from '@/components/blogList'
 
 const Home = ({ posts }) => {
   console.log(posts)
