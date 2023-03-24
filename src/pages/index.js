@@ -10,7 +10,7 @@ const Home = ({ posts }) => {
   console.log(posts)
   return (
     <>
-      <div className='mt-20 md:ml-16 ml-1'>
+      <div className='mt-20 md:ml-16 ml-2'>
         <motion.div
           initial={{ opacity: 0.8 }}
           animate={{ opacity: 1 }}
