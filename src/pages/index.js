@@ -20,7 +20,7 @@ const Home = ({ posts }) => {
           <p className='ml-2 text-gray-400 text-sm md:text-base font-mono'>Everything that comes into my mind will be written here.</p>
         </motion.div>
 
-        <ul className="list-disc list-inside mt-5 ml-2">
+        <ul className="list-disc list-inside mt-12 ml-2">
           <BlogList blogs={posts} />
         </ul>
       </div>
