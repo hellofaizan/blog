@@ -5,6 +5,8 @@ import path from 'path'
 import matter from 'gray-matter'
 import { serialize } from 'next-mdx-remote/serialize'
 import Blog from '@/components/blog'
+import rehypeHighlight from 'rehype-highlight'
+import "highlight.js/styles/shades-of-purple.css";
 
 const BlogPage = ({ mdxSource, frontmatter }) => {
     return (
@@ -19,7 +21,11 @@ export async function getStaticProps({ params }) {
     const postPath = path.join(postFilePaths, `${slug}.mdx`)
     const source = fs.readFileSync(postPath, 'utf8')
     const { data: frontmatter, content } = matter(source)
-    const mdxSource = await serialize(content)
+    const mdxSource = await serialize(content, {
+        mdxOptions: {
+            rehypePlugins: [rehypeHighlight],
+        }
+    })
     return {
         props: {
             mdxSource,

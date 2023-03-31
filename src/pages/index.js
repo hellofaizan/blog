@@ -35,7 +35,7 @@ export const getStaticProps = async () => {
 
     return {
       frontmatter: data,
-      slug
+      slug: slug.replace('.mdx', '')
     }
   })
 
