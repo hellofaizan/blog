@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.hellofaizan.me',
-  siteRepo: 'https://github.com/hellofaizan/tailwind-nextjs-starter-blog',
+  siteRepo: 'https://github.com/hellofaizan/blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
